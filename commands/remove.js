@@ -15,13 +15,12 @@ module.exports = (bot, msg, prefix) =>{
   {
       return msg.reply("Tens que escolher um número de créditos para retirar")
   }
-  var connection = mysql.createConnection({
-    host: '185.113.141.220',
-    user: 'tugaelit_discord',
-    password: 'R(goyfd]%;no',
-    database: 'tugaelit_discord'
-  });
-
+    var connection = mysql.createConnection({
+        host: '',
+        user: '',
+        password: '',
+        database: ''
+      });
   
       if(msg.member.roles.cache.get('765722570111844392'))
      {
