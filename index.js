@@ -5,7 +5,7 @@ const fs = require('fs');
 const mysql = require('mysql');
 
 //mudaveis
-const token = 'NzY1NzE5ODA1MzgxOTY3ODgy.X4Y6Iw.sSNv3IfU5vVBdLBGiB4CW9-_u2U';
+const token = '';
 const prefix = '!';
 const comandos = require("./scripts/commandsReader")(prefix);
 
